@@ -7,7 +7,7 @@ Intel GPU Occupancy Calculator is HTML Web Application to compute GPU Occupancy 
 ## Tool Details
 
 * Allows user to pick a GPU SKU, input Global Size of HPC application, Work-Group(WG) size, Sub-Group size, Shared Local Memory(SLM) size and barrier usage.
-* Computes Sub-Slice/Dual Sub-Slice (SS/DSS) Occupancy based on the inputs.
+* Computes Sub-Slice/Dual Sub-Slice (SS/DSS) Theoretical Occupancy based on the inputs.
 * Generates charts for Impact of varying Work-Group size and Impact of varying Shared Local Memory size.
 * Generates a list of all valid Work-Group sizes that can be used and corresponding Occupancy.
 * Generates a list of optimal configuration values for WG, SG and SLM limit that will get 100% Occupancy.
@@ -20,4 +20,6 @@ Intel GPU Occupancy Calculator is HTML Web Application to compute GPU Occupancy 
 
 ## License
 
-Code samples are licensed under the MIT license.
+Code samples are licensed under the MIT license. See _License.txt_ for details.
+
+Third party program Licenses can be found in _third-party-programs.txt_
